@@ -1,0 +1,22 @@
+{
+  "name": "personal-website",
+  "version": "0.0.0",
+  "authors": [
+    "Corey Mason"
+  ],
+  "license": "GPL-3.0",
+  "homepage": "coreysmason.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "latest",
+    "fontawesome": "latest",
+    "jquery.scrollTo": "latest"
+  }
+}

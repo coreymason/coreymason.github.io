@@ -1,0 +1,32 @@
+{
+  "name": "personal-website",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Corey Mason",
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/coreymason/Personal-Website",
+  "bugs": "https://github.com/coreymason/Personal-Website/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coreymason/Personal-Website.git"
+  },
+  "private": true,
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "load-grunt-tasks": "~0.6.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-uglify": "~0.5.1",
+    "grunt-contrib-cssmin": "~0.10.0",
+    "grunt-contrib-imagemin": "~0.8.0",
+    "grunt-autoprefixer": "~1.0.1",
+    "grunt-contrib-compass": "~0.9.1",
+    "grunt-contrib-coffee": "~0.11.1",
+    "grunt-shell": "~1.0.1",
+    "grunt-ftp-deploy": "~0.1.6",
+    "grunt-bump": "~0.0.15",
+    "grunt-text-replace": "~0.3.12",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-concat": "~0.5.0"
+  }
+}
