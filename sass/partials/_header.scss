@@ -1,29 +1,17 @@
-.background {
+.header {
   background: #073642;
-  @media (max-width: $screen-xs-max) {
-    min-height: 300px;
-  }
-  @media (min-width: $screen-sm-min) {
-    min-height: 400px;
-  }
-  @media (min-width: $screen-md-min) {
-    min-height: 700px;
-  }
+  padding: 0;
+  overflow: hidden;
+}
+
+.background {
+  position: absolute;
 }
 
 .intro {
   padding-bottom: 10px;
   color: #fff;
   position: relative;
-  @media (max-width: $screen-xs-max) {
-    top: 20px;
-  }
-  @media (min-width: $screen-sm-min) {
-    top: 20px;
-  }
-  @media (min-width: $screen-md-min) {
-    top: 100px;
-  }
 
   a:visited, a:link, a:active {
     color: #3498db;
@@ -34,7 +22,7 @@
 }
 
 h1 {
-  margin: 0px;
+  margin: 0;
   @media (max-width: $screen-xs-max) {
     font-size: 60px;
   }
@@ -48,11 +36,12 @@ h1 {
 }
 
 h2 {
-  margin-top: 0px;
+  margin-top: 0;
   color: #3498db;
   &:first-of-type {
     color: #fff;
   }
+
   @media (max-width: $screen-xs-max) {
     font-size: 34px;
   }
