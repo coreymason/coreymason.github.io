@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "bootstrap-sass-official": "latest",
+    "particles.js": "latest",
     "fontawesome": "latest"
   }
 }
