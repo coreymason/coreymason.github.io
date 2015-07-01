@@ -10,6 +10,7 @@ $(document).ready(function() {
 var width, height, header, particles, intro;
 var cycleDivs, cycleCount;
 
+//setup for cycling
 function initCycle(ready) {
   if(ready) {
     cycleDivs.eq(cycleCount).hide().css('visibility','visible');
@@ -42,15 +43,18 @@ function initBackground() {
   }
 }
 
+//start listening for resize and scroll events
 function addListeners() {
     window.addEventListener('scroll', scrollCheck);
     window.addEventListener('resize', resize);
 }
 
+//don't remember what this is supposed to do - oops
 function scrollCheck() {
 
 }
 
+//adjust variables and styles
 function resize() {
     width = window.innerWidth;
     height = window.innerHeight;
@@ -68,11 +72,13 @@ function resize() {
     }
 }
 
+//loops through each h2 text option
 function loop() {
   cycleDivs.eq(cycleCount).fadeIn(400).delay(1000).fadeOut(400, loop);
   cycleCount = ++cycleCount % cycleDivs.length;
 }
 
+//initializes particles.js from settings in particles.json
 function initParticles() {
   /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
   particlesJS.load('particles-js', 'js/particles.json', function() {
