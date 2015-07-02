@@ -19,6 +19,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 1.0 Compass
 --------------------------------------------------------------*/
 @import "compass";
+@import "compass/reset";
 
 /*--------------------------------------------------------------
 2.0 Vendor
@@ -30,9 +31,12 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 /*--------------------------------------------------------------
 3.0 Modules and Variables
 --------------------------------------------------------------*/
+@import "modules/variables";
 @import "partials/base";
 
 /*--------------------------------------------------------------
 4.0 Partials
 --------------------------------------------------------------*/
 @import "partials/header";
+@import "partials/tabs";
+@import "partials/arrows";

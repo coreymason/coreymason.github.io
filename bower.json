@@ -17,6 +17,7 @@
   "dependencies": {
     "bootstrap-sass-official": "latest",
     "particles.js": "2.0.0",
+    "modernizr": "latest",
     "fontawesome": "latest"
   }
 }
