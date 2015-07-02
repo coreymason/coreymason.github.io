@@ -1,0 +1,114 @@
+.arrow {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+  width:100%;
+  padding: 0;
+}
+
+.arrow {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+a:hover .left, a:hover .up, a:hover .down, a:hover .right{
+  border: 0.5em solid #e74c3c;
+}
+
+a:hover .left:after, a:hover .up:after, a:hover .down:after, a:hover .right:after {
+  border-top: 0.5em solid #e74c3c;
+  border-right: 0.5em solid #e74c3c;
+}
+
+.left {
+  display: inline-block;
+  width: 4em;
+  height: 4em;
+  border: 0.5em solid #000;
+  border-radius: 50%;
+}
+
+.left:after {
+  content: '';
+	display: inline-block;
+  margin-top: 1.05em;
+  margin-left: 0.6em;
+  width: 1.4em;
+  height: 1.4em;
+  border-top: 0.5em solid #000;
+  border-right: 0.5em solid #000;
+  -moz-transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+.up {
+  display: inline-block;
+  width: 4em;
+  height: 4em;
+  border: 0.5em solid #000;
+  border-radius: 50%;
+}
+
+.up:after {
+  content: '';
+	display: inline-block;
+  margin-top: 1.4em;
+  width: 1.4em;
+  height: 1.4em;
+  border-top: 0.5em solid #000;
+  border-right: 0.5em solid #000;
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.down {
+  display: inline-block;
+  width: 4em;
+  height: 4em;
+  border: 0.5em solid #000;
+  border-radius: 50%;
+}
+
+.down:after {
+  content: '';
+	display: inline-block;
+  margin-top: 0.6em;
+  width: 1.4em;
+  height: 1.4em;
+  border-top: 0.5em solid #000;
+  border-right: 0.5em solid #000;
+  -moz-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+.right {
+  display: inline-block;
+  width: 4em;
+  height: 4em;
+  border: 0.5em solid #000;
+  border-radius: 50%;
+}
+
+.right:after {
+  content: '';
+	display: inline-block;
+  margin-top: 1.05em;
+  margin-left: -0.6em;
+  width: 1.4em;
+  height: 1.4em;
+  border-top: 0.5em solid #000;
+  border-right: 0.5em solid #000;
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+//not very responsive as could be covered -- should (but is not yet) set to middle of bottom and intro div
+.next {
+  width: 100%;
+  position: relative;
+  top: 50px;
+}
