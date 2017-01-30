@@ -65,11 +65,13 @@ header {
 .name {
   max-width:240px;
   color: #45b29a;
-  font-size: 64px;
+  font-size: 0px;
   font-family: 'Niconne', cursive;
   white-space: nowrap;
 }
 .name p {
+  display: inline-block;
+  font-size: 64px;
   margin-bottom: 0px;
 }
 .desc {
@@ -158,7 +160,11 @@ header {
 
   .name {
     max-width: 350px;
+  }
+  .name p {
+    display: inline-block;
     font-size: 93.3px;
+    margin-bottom: 0px;
   }
 
   .aws {
