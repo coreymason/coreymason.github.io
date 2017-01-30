@@ -78,6 +78,43 @@ header {
   font-weight:400;
 }
 
+#iconspace {
+  min-height: 300px;
+}
+.icon {
+  position:absolute;
+  width:125px;
+  height:125px;
+  -webkit-transition:all 1s ease-in-out;
+  transition:all 1s ease-in-out;
+  z-index:980;
+}
+.aws {
+  background:url(../img/aws.svg) top left no-repeat;
+  right: -2em;
+  top: -1em;
+}
+.atom {
+  background:url(../img/atom.svg) top left no-repeat;
+  left: -2em;
+  bottom: -5em;
+}
+.cpp {
+  background:url(../img/cpp.svg) top left no-repeat;
+  right: 2em;
+  top: 14em;
+}
+.js {
+  background:url(../img/js.svg) top left no-repeat;
+  left: 8em;
+  bottom: -16em;
+}
+.html5 {
+  background:url(../img/html5.svg) top left no-repeat;
+  right: 17em;
+  top: 21em;
+}
+
 
 @media (min-width: 992px) {
   #top {
@@ -122,5 +159,44 @@ header {
   .name {
     max-width: 350px;
     font-size: 93.3px;
+  }
+
+  .aws {
+    right: 3em;
+    top: -1em;
+  }
+  .atom {
+    left: 1em;
+    bottom: -6em;
+  }
+  .cpp {
+    right: 10em;
+    top: 16em;
+  }
+  .js {
+    left: 19em;
+    bottom: -18em;
+  }
+  .html5 {
+    right: 24em;
+    top: 26em;
+  }
+}
+
+@media (max-width: 768px) {
+  .html5 {
+    right: 10em;
+    top: 21em;
+  }
+}
+
+@media (max-width: 525px) {
+  .js {
+    left: 3em;
+    bottom: -16em;
+  }
+  .html5 {
+    right: 4em;
+    top: 24em;
   }
 }
