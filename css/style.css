@@ -15,9 +15,14 @@
   100% { opacity: 1; }
 }
 
+::selection {
+  background: #e0ebe8;
+  color: #545454;
+}
 
 body {
   font-size:14px;
+  color: #545454;
 }
 
 #top {
@@ -143,6 +148,25 @@ header {
   background:url(../img/html5.svg) top left no-repeat;
   right: 17em;
   top: 21em;
+}
+
+#hello h3 {
+  color: #45b29a;
+}
+#hello p {
+  font-size: 1.5em;
+}
+.break {
+  max-width:100px;
+}
+.sep {
+  background-image:url(../img/sep.png);
+  height:6px;
+  width:100%;
+}
+
+#projects h1 {
+  color:#1e836c;
 }
 
 
