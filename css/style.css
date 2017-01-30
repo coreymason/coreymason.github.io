@@ -1,0 +1,126 @@
+body {
+  font-size:14px;
+}
+
+#top {
+  padding-top: 0;
+  overflow:hidden;
+  background: #e0ebe8;
+}
+
+header {
+  background:#e0ebe8;
+  padding:2em 0;
+}
+.nav-top {
+  opacity:1;
+  position:relative;
+  width:100%;
+  z-index:1000;
+  -webkit-transform:translate3d(0,0,0);
+}
+.nav-fixed {
+  opacity:1;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+}
+.nav-root {
+  background:inherit;
+}
+
+.nav-list {
+  padding-top:1.5em;
+  padding-left:0;
+  position:relative;
+  float:right;
+}
+.nav-list li {
+  display:block;
+  float:left;
+}
+.nav-list li a {
+  display:inline-block;
+  text-decoration:none;
+  color:#45b29a;
+  font-weight:400;
+  font-size:120%;
+  margin:0 0 0 1em;
+}
+.nav-list li a:hover,.nav-list li a.active {
+  color:#21564b;
+}
+
+.transition {
+  -webkit-transition:all .5s ease-in-out;
+  transition:all .5s ease-in-out;
+}
+
+#title {
+  position:relative;
+  -webkit-animation:fadeIn .5s ease-in-out;
+  -moz-transition:fadeIn .5s ease-in-out;
+  -o-transition:fadeIn .5s ease-in-out;
+  transition:fadeIn .5s ease-in-out;
+}
+.name {
+  max-width:240px;
+  color: #45b29a;
+  font-size: 64px;
+  font-family: 'Niconne', cursive;
+  white-space: nowrap;
+}
+.name p {
+  margin-bottom: 0px;
+}
+.desc {
+  color:#45b29a;
+  font-size:150%;
+  font-weight:400;
+}
+
+
+@media (min-width: 992px) {
+  #top {
+    padding-top:130px;
+  }
+  .nav-top {
+    opacity:0;
+    position:fixed;
+    -webkit-transform:translate3d(0,-130px,0);
+    -webkit-transition:.5s;
+    transition:.5s;
+    top:0;
+  }
+  .nav-fixed {
+    -webkit-box-shadow:0 1px 1px rgba(6,8,8,.1);
+    box-shadow:0 1px 1px rgba(6,8,8,.1);
+    opacity:.97;
+    -webkit-transition:all .8s;
+    transition:all .8s;
+    -webkit-backface-visibility:hidden;
+    -webkit-perspective:1000;
+    overflow:hidden;
+    -webkit-transition-timing-function:ease-in-out;
+    -webkit-transform:translate3d(0,0,0);
+    background:#fff;
+  }
+  .nav-root {
+    background:#E0EBE8;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    -webkit-transition:all .8s;
+    transition:all .8s;
+  }
+  .headroom--unpinned {
+    top:-200px;
+  }
+  .nav-list li a {
+    font-size:150%;
+    margin:0 0 0 2em;
+  }
+
+  .name {
+    max-width: 350px;
+    font-size: 93.3px;
+  }
+}
