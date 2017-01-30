@@ -1,3 +1,21 @@
+@-webkit-keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
 body {
   font-size:14px;
 }
@@ -11,6 +29,16 @@ body {
 header {
   background:#e0ebe8;
   padding:2em 0;
+}
+.logo {
+  -webkit-animation:fadeIn .3s ease-in-out;
+  -moz-transition:fadeIn .3s ease-in-out;
+  -o-transition:fadeIn .3s ease-in-out;
+  transition:fadeIn .3s ease-in-out;
+  width:68px;
+  height:68px;
+  margin:0;
+  padding:0;
 }
 .nav-top {
   opacity:1;
