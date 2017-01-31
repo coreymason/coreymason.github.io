@@ -7,6 +7,7 @@
     <title>Corey Mason - Programmer and Student</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 
@@ -22,15 +23,15 @@
         <div class="container transition">
           <div class="row">
             <div class="col-4">
-              <img class="logo rounded-circle" src="https://placehold.it/150x150"></img>
+              <img class="logo rounded-circle" src="https://placehold.it/150x150">
             </div>
 
             <div class="col-8">
               <nav id="top-nav">
                 <ul class="nav-list transition">
-                  <li><a class="active transition" href="#">About</a></li>
-                  <li><a class="transition" href="#">Projects</a></li>
-                  <li><a class="transition" href="#">Contact</a></li>
+                  <li><a class="active transition" href="#hello">About</a></li>
+                  <li><a class="transition" href="#projects">Projects</a></li>
+                  <li><a class="transition" href="#contact">Contact</a></li>
                 </ul>
               </nav>
             </div>
@@ -64,10 +65,10 @@
     </section>
 
     <section id="hello" class="mb-5">
-      <div class="container">
+      <div class="container transition">
         <div class="row">
           <div class="col-12 text-center">
-            <img class="rounded-circle py-4 mt-3" src="https://placehold.it/150x150"></img>
+            <img class="rounded-circle py-4 mt-3" src="https://placehold.it/150x150">
             <h3>Hi!</h3>
 						<p class="mt-3">I'm a programmer / CSE major at UC Davis. I have a passion for programming and especially love creating at hackathons.</p>
           </div>
@@ -76,7 +77,7 @@
     </section>
 
     <div class="break mx-auto">
-      <div class="container">
+      <div class="container transition">
         <div class="row">
           <div class="col-12">
             <div class="sep"></div>
@@ -86,20 +87,82 @@
     </div>
 
     <section id="projects" class="mt-5">
-      <div class="container">
-        <div class="row">
+      <div class="container-fluid transition">
+        <div class="row pb-1">
           <div class="col-12">
             <h1 class="text-center">What I've Done</h1>
           </div>
         </div>
 
-        <div class="row">
-          <div class="col-12">
+        <div class="row pt-1 px-3">
+          <div class="col-md-4">
+            <img src="img/diana.png" class="img-fluid" alt="Diana Game">
+            <h4 class="text-center"><a href="https://github.com/coreymason/GameJamW17" style="color:#545454">Diana</a></h4>
+            <h6 class="text-center">12 Hour Game Jam - Unity 5</h6>
+          </div>
+          <div class="col-md-4">
+            <img src="img/scale.png" class="img-fluid" alt="Project Scale">
+            <h4 class="text-center"><a href="https://github.com/coreymason/project-scale" style="color:#545454">Project Scale</a></h4>
+            <h6 class="text-center">24 Hour Hackathon - Web / JS / PHP</h6>
+          </div>
+          <div class="col-md-4">
+            <img src="https://placehold.it/1920x1080" class="img-fluid" alt="Data Logger">
+            <h4 class="text-center"><a href="https://github.com/FRUCD/DataLoggerWebApp" style="color:#545454">Data Logger</a></h4>
+            <h6 class="text-center">Club Project - Web / MEAN / C3</h6>
+          </div>
+        </div>
 
+        <div class="row pt-1 px-3">
+          <div class="col-md-4">
+            <img src="https://placehold.it/1920x1080" class="img-fluid" alt="Smart Greenhouse">
+            <h4 class="text-center"><a href="https://github.com/coreymason/smart-greenhouse" style="color:#545454">Smart Greenhouse</a></h4>
+            <h6 class="text-center">Hardware / IoT / Web / C++ / JS</h6>
+          </div>
+          <div class="col-md-4">
+            <img src="https://placehold.it/1920x1080" class="img-fluid" alt="Smart Clock">
+            <h4 class="text-center"><a href="https://github.com/coreymason/smart-alarm-clock" style="color:#545454">Smart Clock</a></h4>
+            <h6 class="text-center">Hardware / IoT / Web / C++ / JS</h6>
+          </div>
+          <div class="col-md-4">
+            <img src="https://placehold.it/1920x1080" class="img-fluid" alt="IsoCTF">
+            <h4 class="text-center"><a href="https://github.com/coreymason/IsoCTF-Website" style="color:#545454">IsoCTF</a></h4>
+            <h6 class="text-center">Web / JS</h6>
           </div>
         </div>
       </div>
     </section>
+
+    <section id="cp" class="mt-5">
+      <div class="container-fluid transition">
+        <div class="row">
+          <div class="col-12">
+            <!-- List of comps/probs -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+  		<div class="container transition pb-5">
+  			<div class="row pt-5 pb-4">
+  				<div class="col-12">
+            <a class="btn btn-email" href="mailto:contact@coreysmason.com" role="button"><i class="fa fa-envelope-o email-logo" aria-hidden="true"></i>Email Me!</i></a>
+  				</div>
+  			</div>
+        <div class="row">
+          <div class="col-2"></div>
+  				<div class="col-5">
+            <h6>Website by Corey Mason</h6>
+          </div>
+          <div class="col-3">
+            <h5 style="float:right;"><a href="https://github.com/coreymason" style="color:#545454"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></h5>
+  				</div>
+          <div class="col-2"></div>
+  			</div>
+  		</div>
+  	</footer>
+
+
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>

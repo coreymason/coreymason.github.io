@@ -168,6 +168,33 @@ header {
 #projects h1 {
   color:#1e836c;
 }
+#projects h6 {
+  font-weight: 400;
+}
+
+footer {
+  background:#c5ded7;
+}
+.btn-email {
+  width: 100%;
+  color: #1b7f69;
+  background: #45b29a;
+  text-decoration: none;
+  font-size: 2rem;
+}
+.btn-email:hover {
+  color: #1b7f69;
+  background: #3ea08a;
+}
+.email-logo {
+  line-height: inherit!important;
+  position: absolute;
+  left: 15%;
+}
+#contact ::selection {
+  background: #545454;
+  color: #e0ebe8;
+}
 
 
 @media (min-width: 992px) {
