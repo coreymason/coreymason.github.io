@@ -180,6 +180,36 @@ header {
 #projects h6 {
   font-weight: 400;
 }
+.img-overlay {
+    position: relative;
+}
+.project-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(141, 178, 215, 0.77);
+    -webkit-transition: opacity .5s ease-in-out;
+    -moz-transition: opacity .5s ease-in-out;
+    -ms-transition: opacity .5s ease-in-out;
+    -o-transition: opacity .5s ease-in-out;
+    transition: opacity .5s ease-in-out;
+    color: #fff;
+    font-size: 40px;
+    opacity: 0;
+}
+.project-overlay:hover {
+  opacity: 1;
+}
+.over-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
 
 footer {
   background:#c5ded7;

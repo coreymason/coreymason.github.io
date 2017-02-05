@@ -97,36 +97,83 @@
 
         <div class="row pt-1 px-3">
           <div class="col-md-4">
-            <img src="img/diana.png" class="img-fluid" alt="Diana Game">
+            <a href="#">
+              <div class="img-overlay">
+                <img src="img/diana.png" class="img-fluid" alt="Diana Game">
+                <div class="project-overlay">
+                  <i class="fa fa-link over-icon" aria-hidden="true"></i>
+                </div>
+              </div>
+            </a>
             <h4 class="text-center"><a href="https://github.com/coreymason/GameJamW17" style="color:#545454">Diana</a></h4>
             <h6 class="text-center">12 Hour Game Jam - Unity 5</h6>
           </div>
           <div class="col-md-4">
-            <img src="img/scale.png" class="img-fluid" alt="Project Scale">
+            <a href="project-scale">
+              <div class="img-overlay">
+                <img src="img/scale.png" class="img-fluid" alt="Project Scale">
+                <div class="project-overlay">
+                  <i class="fa fa-link over-icon" aria-hidden="true"></i>
+                </div>
+              </div>
+            </a>
             <h4 class="text-center"><a href="https://github.com/coreymason/project-scale" style="color:#545454">Project Scale</a></h4>
             <h6 class="text-center">24 Hour Hackathon - Web / JS / PHP</h6>
           </div>
           <div class="col-md-4">
-            <img src="https://placehold.it/1920x1080" class="img-fluid" alt="Data Logger">
+            <a href="#">
+              <div class="img-overlay">
+                <img src="https://placehold.it/640x360" class="img-fluid" alt="Data Logger">
+                <div class="project-overlay">
+                  <i class="fa fa-link over-icon" aria-hidden="true"></i>
+                </div>
+              </div>
+            </a>
             <h4 class="text-center"><a href="https://github.com/FRUCD/DataLoggerWebApp" style="color:#545454">Data Logger</a></h4>
             <h6 class="text-center">Club Project - Web / MEAN / C3</h6>
           </div>
         </div>
 
         <div class="row pt-1 px-3">
-          <div class="col-md-4">
-            <img src="https://placehold.it/1920x1080" class="img-fluid" alt="Smart Greenhouse">
+          <!--<div class="col-md-4">
+            <img src="https://placehold.it/640x360" class="img-fluid" alt="Smart Greenhouse">
             <h4 class="text-center"><a href="https://github.com/coreymason/smart-greenhouse" style="color:#545454">Smart Greenhouse</a></h4>
             <h6 class="text-center">Hardware / IoT / Web / C++ / JS</h6>
-          </div>
+          </div>-->
           <div class="col-md-4">
-            <img src="https://placehold.it/1920x1080" class="img-fluid" alt="Smart Clock">
+            <a href="clock">
+              <div class="img-overlay">
+                <img src="img/clock.png" class="img-fluid" alt="Smart Clock">
+                <div class="project-overlay">
+                  <i class="fa fa-link over-icon" aria-hidden="true"></i>
+                </div>
+              </div>
+            </a>
             <h4 class="text-center"><a href="https://github.com/coreymason/smart-alarm-clock" style="color:#545454">Smart Clock</a></h4>
             <h6 class="text-center">Hardware / IoT / Web / C++ / JS</h6>
           </div>
           <div class="col-md-4">
-            <img src="https://placehold.it/1920x1080" class="img-fluid" alt="IsoCTF">
+            <a href="#">
+              <div class="img-overlay">
+                <img src="https://placehold.it/640x360" class="img-fluid" alt="IsoCTF">
+                <div class="project-overlay">
+                  <i class="fa fa-link over-icon" aria-hidden="true"></i>
+                </div>
+              </div>
+            </a>
             <h4 class="text-center"><a href="https://github.com/coreymason/IsoCTF-Website" style="color:#545454">IsoCTF</a></h4>
+            <h6 class="text-center">Web / JS</h6>
+          </div>
+          <div class="col-md-4">
+            <a href="ptsa">
+              <div class="img-overlay">
+                <img src="img/ptsa.png" class="img-fluid" alt="High School PTSA">
+                <div class="project-overlay">
+                  <i class="fa fa-link over-icon" aria-hidden="true"></i>
+                </div>
+              </div>
+            </a>
+            <h4 class="text-center"><a href="https://github.com/coreymason/WestmontHS-PTSA-Website" style="color:#545454">High School PTSA</a></h4>
             <h6 class="text-center">Web / JS</h6>
           </div>
         </div>
@@ -163,14 +210,36 @@
   		</div>
   	</footer>
 
-
-
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.3/headroom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.9.3/jQuery.headroom.min.js"></script>
     <script src="js/particles.min.js"></script>
+    <script src="js/jquery.smooth-scroll.min.js"></script>
+    <script>
+      // Bind the hashchange event listener
+      $(window).bind('hashchange', function(event) {
+        $.smoothScroll({
+          // Replace '#/' with '#' to go to the correct target
+          scrollTarget: location.hash.replace(/^\#\/?/, '#')
+        });
+      });
+      $('a[href*="#"]')
+      .bind('click', function(event) {
+        // Remove '#' from the hash.
+        var hash = this.hash.replace(/^#/, '')
+        if (this.pathname === location.pathname && hash) {
+          event.preventDefault();
+          // Change '#' (removed above) to '#/' so it doesn't jump without the smooth scrolling
+          location.hash = '#/' + hash;
+        }
+      });
+      // Trigger hashchange event on page load if there is a hash in the URL.
+      if (location.hash) {
+        $(window).trigger('hashchange');
+      }
+    </script>
     <script src="js/app.js"></script>
   </body>
 </html>
