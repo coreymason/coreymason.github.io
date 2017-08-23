@@ -1,0 +1,15 @@
+### Generic ###
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+
+### Node ###
+node_modules
+
+### Sass ###
+.sass-cache
+
+### Preprocessed ###
+assets/css/dist/

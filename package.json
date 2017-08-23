@@ -1,0 +1,22 @@
+{
+  "name": "csm",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Corey Mason",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coreymason/Personal-Website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/coreymason/Personal-Website/issues"
+  },
+  "homepage": "https://github.com/coreymason/Personal-Website#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.5",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "webpack": "^3.5.5"
+  }
+}
