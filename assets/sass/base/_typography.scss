@@ -50,7 +50,7 @@
 		font-style: italic;
 	}
 
-	p {
+	p:not(.timeline-title) {
 		text-align: justify;
 		margin: 0 0 _size(element-margin) 0;
 	}
