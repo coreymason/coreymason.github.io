@@ -24,7 +24,7 @@
 		font-family: _font(family);
 		font-weight: _font(weight);
 		font-size: 1rem;
-		line-height: 2.375;
+		line-height: 1.875;
 	}
 
 	a {
@@ -50,7 +50,7 @@
 		font-style: italic;
 	}
 
-	p:not(.timeline-title) {
+	p:not(.timeline-title):not(.tile-p) {
 		text-align: justify;
 		margin: 0 0 _size(element-margin) 0;
 	}
