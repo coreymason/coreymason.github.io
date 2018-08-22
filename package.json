@@ -6,12 +6,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coreymason/Personal-Website.git"
+    "url": "git+https://github.com/coreymason/coreysmason.com.git"
   },
   "bugs": {
-    "url": "https://github.com/coreymason/Personal-Website/issues"
+    "url": "https://github.com/coreymason/coreysmason.com/issues"
   },
-  "homepage": "https://github.com/coreymason/Personal-Website#readme",
+  "homepage": "https://github.com/coreymason/coreysmason.com#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0",
