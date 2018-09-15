@@ -1,23 +1,17 @@
 {
   "name": "csm",
-  "version": "1.0.0",
-  "description": "",
+  "version": "3.0.0",
+  "description": "My current personal website!",
   "author": "Corey Mason",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coreymason/coreysmason.com.git"
+    "url": "git+https://github.com/coreymason/coreymason.github.io.git"
   },
-  "bugs": {
-    "url": "https://github.com/coreymason/coreysmason.com/issues"
-  },
-  "homepage": "https://github.com/coreymason/coreysmason.com#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.1"
   },
-  "dependencies": {
-      
-  }
+  "dependencies": {}
 }
